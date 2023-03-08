@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+
+    color: white;
+    font-family: 'Inter';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 208px;
+
+    background-image: url("./img/background.png");
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 42.7947px;
+    line-height: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form {
+    position: relative;
+    top: -22px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#search-box, #search-button {
+    margin: 0;
+    min-height: 38px;
+    padding: 13px;
+    border: 0;
+
+    outline: none;
+}
+
+#search-box {
+    width: 70%;
+    max-width: 800px;
+
+    padding-left: 48px;
+
+    border-radius: 6px 0 0 6px;
+
+    background-color: #2E2E2F;
+    background-image: url("./img/loopIcon.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 20px;
+    cursor: text;
+
+}
+
+#search-button {
+    padding-left: 2em;
+    padding-right: 2em;
+    
+
+    border-radius: 0 6px 6px 0;
+    background: #4B4B4B;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    cursor: pointer;
+}
